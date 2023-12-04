@@ -16,23 +16,23 @@ minecraft-exported-crash-info*
 
 # gradle build
 /build/
-/CU/build/
-/CUCore/build/
-/CUTransformerDiscoveryService/build/
-/minecraft/libraries/CUTransformerDiscoveryService/build/
+/HMCL/build/
+/HMCLCore/build/
+/HMCLTransformerDiscoveryService/build/
+/minecraft/libraries/HMCLTransformerDiscoveryService/build/
 
 # idea
 .idea
 /out/
-/CU/out/
-/CUCore/out/
-/minecraft/libraries/CUTransformerDiscoveryService/out/
+/HMCL/out/
+/HMCLCore/out/
+/minecraft/libraries/HMCLTransformerDiscoveryService/out/
 
 # eclipse
 /bin/
-/CU/bin/
-/CUCore/bin/
-/minecraft/libraries/CUTransformerDiscoveryService/bin/
+/HMCL/bin/
+/HMCLCore/bin/
+/minecraft/libraries/HMCLTransformerDiscoveryService/bin/
 .classpath
 .project
 .settings
@@ -41,11 +41,11 @@ minecraft-exported-crash-info*
 .nb-gradle
 
 *.exe
-!/CU/src/main/resources/assets/CUauncher.exe
+!/HMCL/src/main/resources/assets/HMCLauncher.exe
 
 # macos
 .DS_Store
 
 # test
-/CU.json
-/.CU.json
+/hmcl.json
+/.hmcl.json

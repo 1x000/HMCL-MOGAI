@@ -56,18 +56,18 @@ subprojects {
 
 tasks.create("checkTranslations") {
     doLast {
-        val CULangDir = file("CU/src/main/resources/assets/lang")
+        val hmclLangDir = file("HMCL/src/main/resources/assets/lang")
 
         val en = java.util.Properties().apply {
-            CULangDir.resolve("I18N.properties").bufferedReader().use { load(it) }
+            hmclLangDir.resolve("I18N.properties").bufferedReader().use { load(it) }
         }
 
         val zh = java.util.Properties().apply {
-            CULangDir.resolve("I18N_zh.properties").bufferedReader().use { load(it) }
+            hmclLangDir.resolve("I18N_zh.properties").bufferedReader().use { load(it) }
         }
 
         val zh_CN = java.util.Properties().apply {
-            CULangDir.resolve("I18N_zh_CN.properties").bufferedReader().use { load(it) }
+            hmclLangDir.resolve("I18N_zh_CN.properties").bufferedReader().use { load(it) }
         }
 
         var success = true
