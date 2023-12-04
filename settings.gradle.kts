@@ -1,11 +1,11 @@
-rootProject.name = "HMCL3"
+rootProject.name = "CU3"
 include(
-    "HMCL",
-    "HMCLCore",
-    "HMCLTransformerDiscoveryService"
+    "CU",
+    "CUCore",
+    "CUTransformerDiscoveryService"
 )
 
-val minecraftLibraries = listOf("HMCLTransformerDiscoveryService")
+val minecraftLibraries = listOf("CUTransformerDiscoveryService")
 
 for (library in minecraftLibraries) {
     project(":$library").projectDir = file("minecraft/libraries/$library")

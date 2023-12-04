@@ -20,13 +20,13 @@ Legend:
 
 * 👌: Supported platforms.
 
-  Support is provided by HMCL, tested to work, but may have more issues than a fully supported platform.
+  Support is provided by CU, tested to work, but may have more issues than a fully supported platform.
   Support for versions below 1.6 is not guaranteed.
-  If you encounter a problem that does not exist on fully supported platforms, you can report it to HMCL.
+  If you encounter a problem that does not exist on fully supported platforms, you can report it to CU.
 
 * ❔: Low level supported platforms.
 
-  HMCL can run on this platform and has some basic support.
+  CU can run on this platform and has some basic support.
   However, launching the game directly is not yet available.
   If you want to start the game, 
   you'll need to get the native libraries needed by Minecraft in other way and specify the native path in the instance settings.
